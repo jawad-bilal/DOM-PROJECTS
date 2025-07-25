@@ -1,0 +1,100 @@
+/* TO DO LIST STYLING */
+
+body {
+  height: 100vh;
+  background: url(https://c8.alamy.com/comp/M42M0P/to-do-list-seamless-pattern-background-business-flat-vector-illustration-M42M0P.jpg)
+  no-repeat center center/cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#add-task-container {
+    border: 2px solid red;
+    width: 300px;
+    padding: 20px 10px ;
+    background-color: black;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    /* box-shadow: 0 0 3px black; */
+}
+
+input {
+    border: 2px solid red;
+    flex: 5;
+    margin-right: 10px;
+    border-radius: 12px;
+    font-size: 1.2rem;
+    padding: 5px;
+}
+#add-task {
+    transition: 0.3s;
+    font-size: 20px;
+    transition: 0.3s;
+    flex: 1;
+    font-size: 1.2rem;
+    padding: 5px;
+    background-color: white;
+    color: red;
+    border: red solid 2px ;
+    border-radius: 10px;
+}
+
+#add-task:hover {
+    background-color: red;
+    color: white;
+}
+
+/* Style for the task that are added to to-do list */
+.task{
+    border: 2px solid red;
+    color: white;
+    width: 95.5%;
+    background-color: black;
+    border-radius: 10px;
+    box-shadow: 0 0 3px;
+    padding: 5px;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.task li {
+    list-style:  none;
+    flex: 4;
+    padding: 5px;
+    font-size: 1.3rem;
+    margin: 10px;
+}
+
+.task button {
+    margin: 0px 2px;
+    flex: 0.5;
+    border: 2px solid red;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+}
+.task .checktask {
+    color: orange;
+    margin-right: 5px;
+    border: 2px solid orange;
+    font-size: 1.5rem;
+}
+.task .checktask:hover {
+    background-color: orange;
+    color: white;
+}
+
+.task .deletetask {
+    color: red;
+    /* margin-right: 5px; */
+    border: 2px solid red;
+    font-size: 1.3rem;
+}
+
+.task .deletetask:hover {
+    background-color: red;
+    color: white;
+}
