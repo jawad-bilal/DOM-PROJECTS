@@ -1,0 +1,64 @@
+body {
+  font-family: "Lato",sans-serif;
+  height: 100vh;
+  background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4Xcu_NYrTBt69c2n-HZQhhOlJLyAc4FUNNA&s)
+    no-repeat center center/cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  background-color: white;
+  width: 40%;
+  height: 250px;
+  border: 2px solid black;
+  border-radius: 20px;
+  /* box-shadow: 0 0 3px black; */
+  text-align: center;
+  /* align-items: center;
+    justify-content: center;
+    justify-items: center; */
+}
+
+.container h1 {
+  /* margin-bottom: 14px; */
+  color: red;
+}
+
+#timer {
+  width: 100%;
+  font-size: 72px;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 26px;
+  /* padding-top: 15px; */
+}
+
+.buttons {
+  text-align: center;
+}
+
+button {
+  margin: 0px 20px;
+  border: none;
+  font-size: 30px;
+  /* box-shadow: none; */
+}
+
+button i {
+  padding: 10px;
+  padding: 7px;
+  color: white;
+  width: 30px;
+}
+
+#play {
+  background-color: green;
+}
+#pause {
+  background-color: orange;
+}
+#reset {
+  background-color: red;
+}
